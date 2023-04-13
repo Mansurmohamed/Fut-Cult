@@ -1,48 +1,131 @@
-// const express = require("express");
-// const cors = require("cors");
-
-// const app = express();
-
-// app.use(cors());
 "use strict";
-
-// import the needed node_modules.
 const express = require("express");
 const morgan = require("morgan");
+const { MongoClient, ObjectId } = require("mongodb");
+const uri ='mongodb+srv://abdullamansur3:ePDWlPbl2zy7GHXV@soccer.jd4ta79.mongodb.net/?retryWrites=true&w=majority';
+const objectId = new ObjectId();
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
-express()
-  // Below are methods that are included in express(). We chain them for convenience.
-  // --------------------------------------------------------------------------------
+const app = express();
 
-  // This will give us will log more info to the console. see https://www.npmjs.com/package/morgan
-  .use(morgan("tiny"))
+app
+  .use(morgan('tiny'))
   .use(express.json())
+  .use(express.static('public'))
 
-  // Any requests for static files will go into the public folder
-  .use(express.static("public"))
 
-  // Nothing to modify above this line
-  // ---------------------------------
-  // add new endpoints here 👇
+  .post('/api/profile', async (req, res) => {
+   
+    const account = req.body;
+    console.log(req.body);
+try {
+  await client.connect()
+  const usersCollection = client.db('UserDatabase').collection('Users');
+  const user = await usersCollection.findOne({ email: account.email });
+  if (user) {
+    res.status(200).json({status: 200, user});
+    console.log(`User ${account.email} already exists in MongoDB`);
+  } else {
+    console.log("adding a new user");
+    const newUser = {
+      _id: account.email,
+      email: account.email,
+      name: account.name,
+      favoriteTeams: []
+    }
+    await usersCollection.insertOne(newUser);  
+    res.status(201).json({status: 201, user: newUser})
+  }
 
-  // add new endpoints here ☝️
-  // ---------------------------------
-  // Nothing to modify below this line
+} catch(error){
+console.log(error);
+res.status(400).json({status: 400, error});
+} finally {
+  client.close()
+}
+   
+  })
 
-  // this is our catch all endpoint.
-  .get("*", (req, res) => {
+  .patch('/api/user/add/favorite-team/:id', async (req, res) => {
+    try {
+      const teamId = req.params.id;
+      const account = req.body;
+      console.log(req.body);
+
+      await client.connect();
+      const usersCollection = client.db('UserDatabase').collection('Users');
+
+      const foundUser = await usersCollection.findOne({ email: account.email });
+      if (!foundUser){
+       return res.status(404).json({ status: 404, message: 'user not found'})
+      } else if (foundUser.favoriteTeams.includes(teamId)){
+        return res.status(409).json({ status: 409, message : "team is already a favorite"})
+      }
+      const user = await usersCollection.updateOne(
+        { email: account.email },
+        { $push: { favoriteTeams: teamId } }
+      );
+      if (user.modifiedCount === 0) {
+        res.status(400).json({
+          status: 400,
+          message: `User ${account.email} change not made`,
+        });
+        console.log(`User ${account.email} not found in MongoDB`);
+        return;
+      }
+      res.sendStatus(204);
+      console.log(`Team ${teamId} added to the favorite teams of user ${account.email}`);
+    } catch (error) {
+      console.log(error);
+      res.status(400).json({ status: 400, error });
+    } finally {
+      client.close();
+    }
+  })
+
+  .patch('/api/user/remove/favorite-team/:id', async (req, res) => {
+    try {
+      const teamId = req.params.id;
+      const account = req.body;
+      console.log(req.body);
+
+      await client.connect();
+      const usersCollection = client.db('UserDatabase').collection('Users');
+
+      const foundUser = await usersCollection.findOne({ email: account.email });
+      if (!foundUser){
+       return res.status(404).json({ status: 404, message: 'user not found'})
+      } else if (!foundUser.favoriteTeams.includes(teamId)){
+        return res.status(409).json({ status: 409, message : "team is not a favorite"})
+      }
+      const user = await usersCollection.updateOne(
+        { email: account.email },
+        { $pull: { favoriteTeams: teamId } }
+      );
+      if (user.modifiedCount === 0) {
+        res.status(400).json({
+          status: 400,
+          message: `User ${account.email} change not made`,
+        });
+        console.log(`User ${account.email} not found in MongoDB`);
+        return;
+      }
+      res.sendStatus(204);
+      console.log(`Team ${teamId} added to the favorite teams of user ${account.email}`);
+    } catch (error) {
+      console.log(error);
+      res.status(400).json({ status: 400, error });
+    } finally {
+      client.close();
+    }
+  })
+
+
+  .get('*', (req, res) => {
     res.status(404).json({
       status: 404,
       message: "This is obviously not what you are looking for.",
     });
   })
 
-  // Node spins up our server and sets it to listen on port 8000.
   .listen(8000, () => console.log(`Listening on port 8000`));
-
-//Access to fetch at 'http://api.football-data.org/v4/competitions/PL/standings' from 
-// origin 'http://localhost:3000' has been blocked by CORS policy: Response to preflight request doesn't pass
-//  access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. 
-// If an opaque response serves your needs, 
-// set the request's mode to 'no-cors'
-//  to fetch the resource with CORS disabled.

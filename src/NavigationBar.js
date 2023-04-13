@@ -38,11 +38,11 @@ const NavItems = styled.ul`
   /* background-color: darkgrey; */
   list-style-type: none;
   text-align: center;
+  justify-content: space-evenly;
 `;
 
 const Items = styled.li`
   margin: 10px;
-  margin-left: 200px;
 `;
 
 const StyledLink = styled(Link)`

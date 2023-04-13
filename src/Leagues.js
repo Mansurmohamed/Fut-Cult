@@ -116,9 +116,11 @@ color: inherit;
 `;
 
 const LeagueDropdown = styled.select`
-  font-size: 16px;
+  font-size: 30px;
   padding: 8px;
   margin: 10px;
+  background-color: black;
+  color: white;
 `;
 
 
