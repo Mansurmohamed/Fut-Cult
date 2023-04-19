@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 import {MdOutlineStadium} from "react-icons/md";
 
+
 const leagues = [  { name: "Premier League", id: "4328" },  { name: "La Liga", id: "4335" },  { name: "Serie A", id: "4332" },  { name: "Bundesliga", id: "4331" },  { name: "Ligue 1", id: "4334" },];
 
 const Home = () => {
@@ -38,6 +39,7 @@ const Home = () => {
         {events.map((event) => (
           <EventItem key={event.idEvent}>
             <EventTitle>{event.strEvent}</EventTitle>
+         
             <VenueContainer>
             <VenueIcon />
             <VenueName>{event.strVenue}</VenueName>
@@ -82,6 +84,7 @@ const Tab = styled.div`
   }
   margin-right: 10px;
 `;
+
 
 
 

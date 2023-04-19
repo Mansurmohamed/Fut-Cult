@@ -13,15 +13,29 @@ const Leagues = () => {
     {label: "Serie A", value: "4332"},
     {label: "Ligue 1", value: "4334"},
     {label: "La Liga", value: "4335"},
+    {label: "Eredevisie", value: "4337"},
+    {label: "Belgian Pro", value: "4338"},
+    // {label: 'test', value: "4553"},
+    {label:"Danish Superliga", value:"4340"},
   ];
 
   //League IDs
-
   // PL = 4328
   // Bundesliga = 4331
   // Serie A = 4332
   // Ligue 1 = 4334
   // La Liga = 4335
+  // Eredevisie = 4337
+  // Belgian pro = 4338
+  // Denmark = 4340
+  // Russia = 4355
+  // Scottish championship = 4395
+  // English league 1 = 4396
+  // 4399 = german 2 
+  // 4356 = Australian A league
+  // 4400 = spanish 2 
+  // 4401 = french 2 
+  // 4422 = Poland
   // UCL = 4480
   // UEL = 4481
 
@@ -116,7 +130,7 @@ color: inherit;
 `;
 
 const LeagueDropdown = styled.select`
-  font-size: 30px;
+  font-size: 25px;
   padding: 8px;
   margin: 10px;
   background-color: black;
