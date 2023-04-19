@@ -73,11 +73,11 @@ const ClubWindow = styled.div`
 `;
 
 const Dropdown = styled.select`
-  font-size: 16px;
-  margin-bottom: 20px;
-  padding: 10px;
-  border-radius: 4px;
-  justify-content: center;
+ font-size: 25px;
+  padding: 8px;
+  margin: 10px;
+  background-color: black;
+  color: white;
 `;
 
 const StyledLink = styled(Link)`
