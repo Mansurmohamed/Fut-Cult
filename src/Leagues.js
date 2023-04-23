@@ -150,7 +150,7 @@ const LeagueDropdown = styled.select`
 const Th = styled.th`
 text-align: left;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 24px;
   color: white; /*#3d3d3d;*/
    background-color: black; /*#f8f9fa; */
    border: 1px solid black; /*#e9ecef; */
@@ -158,7 +158,7 @@ text-align: left;
 `;
 
 const Td = styled.td`
- font-size: 14px;
+font-size: 24px;
   color: white;
   border: 1px solid black; /*#e9ecef;*/
   padding: 12px;
@@ -167,11 +167,13 @@ const Td = styled.td`
 const RankTd = styled(Td)`
   color: white;
    background-color: black;/*#6c757d; */
+   font-size: 24px;
 `;
 
 const TeamTd = styled(Td)`
   display: flex;
   align-items: center;
+  font-size: 24px;
 `;
 
 const TeamLogo = styled.img`

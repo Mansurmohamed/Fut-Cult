@@ -3,7 +3,8 @@ import styled from "styled-components";
 import {MdOutlineStadium} from "react-icons/md";
 
 
-const leagues = [  { name: "Premier League", id: "4328" },  { name: "La Liga", id: "4335" },  { name: "Serie A", id: "4332" },  { name: "Bundesliga", id: "4331" },  { name: "Ligue 1", id: "4334" },];
+const leagues = [  { name: "Premier League", id: "4328" },  { name: "La Liga", id: "4335" },  { name: "Serie A", id: "4332" },  { name: "Bundesliga", id: "4331" },  { name: "Ligue 1", id: "4334" }, 
+{ name: "Eredevisie", id: "4337" }, { name: "Belgian Pro League", id: "4338" },];
 
 const Home = () => {
   const [activeLeagueId, setActiveLeagueId] = useState(leagues[0].id);
