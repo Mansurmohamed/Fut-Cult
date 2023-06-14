@@ -1,13 +1,16 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"; // imports useState and useEffect, two important
+// hooks for this application
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+ // imports link capabilities into component
 
 
-const Leagues = () => {
+const Leagues = () => { // component with two useStates, one starting with an id of 4328 and the 
+  // next one starting at an empty array
   const [leagueId, setLeagueId] = useState("4328");
   const [teams, setTeams] = useState([]);
 
-  const LeagueOptions = [
+  const LeagueOptions = [ // ID's of each league available in the drop down
     {label: "Premier League", value:"4328"},
     {label: "Bundesliga", value: "4331"},
     {label: "Serie A", value: "4332"},
@@ -39,14 +42,14 @@ const Leagues = () => {
   // UCL = 4480
   // UEL = 4481
 
-  useEffect(() => {
+  useEffect(() => { // UseEffect fetches the league table data from theSportsDB API.
     fetch(
     `https://www.thesportsdb.com/api/v1/json/3/lookuptable.php?l=${leagueId}&s=2022-2023`
     )
       .then((response) => response.json())
       .then((data) => {
         // process the response data
-        console.log(data);
+        console.log(data); // view the data as objects on the console
         const sortedTeams = data.table.sort((a, b) => a.intRank - b.intRank);
         setTeams(sortedTeams);
       })
