@@ -11,6 +11,8 @@
 
 ![ezgif com-video-to-gif](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/e2ee7b81-9d50-4790-9e09-a098df5f10b4)
 
+<p>View teams across different leagues</p>
+
 
 <h1>Challenges</h1>
 <ul>
