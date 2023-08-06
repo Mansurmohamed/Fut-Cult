@@ -73,22 +73,4 @@ const Image = styled.img`
   border-radius: 7px;
   border: 1px solid white;
 `;
-/* <h1>Latest in games</h1> */
 
-/* <iframe
-        src="https://www.scorebat.com/embed/"
-        title="Match highlights"
-        frameborder="0"
-        // width="600"
-        // height="300"
-        allowfullscreen
-        allow="autoplay; fullscreen"
-        style={{
-          width: "90%",
-          height: "660px",
-          overflow: "hidden",
-          display: "block",
-          margin: "auto"
-        }}
-        class="_scorebatEmbeddedPlayer_"
-      ></iframe> */

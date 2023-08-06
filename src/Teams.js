@@ -48,7 +48,7 @@ const Teams = () => {
             <div key={club.idTeam}>
               <Logo src={club.strTeamBadge} alt={club.strTeam} />
               <h2>{club.strTeam}</h2>
-              <p style={{ marginBottom: "90px" }}>{club.strKeywords}</p>
+              {/* <p style={{ marginBottom: "90px" }}>{club.strKeywords}</p> */}
             </div>
           </StyledLink>
         ))}
