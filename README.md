@@ -17,6 +17,8 @@
 
 <h1>More to come</h1>
 <ul>
- <li>A search feature</li>
+ <li>A search feature (ie find a team,league by name)</li>
+ <li>More leagues</li>
+ <li>Include european cup competitons(UEFA champions league, europa league and conference league)</li>
 </ul>
 
