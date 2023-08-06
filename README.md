@@ -20,6 +20,6 @@
  <li>A search feature (ie find a team,league by name)</li>
  <li>More leagues</li>
  <li>Include european cup competitons(UEFA champions league, europa league and conference league)</li>
- <li>Incorporate a blog page</li>
+ <li>Incorporate a blog page(in partnership with Foot News)</li>
 </ul>
 
