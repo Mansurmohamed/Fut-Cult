@@ -65,14 +65,21 @@ const UnfavoriteTeam = () => {
         {account &&<AiOutlineHeart style={{ color:isIncluded ? "red": "white",fontSize:"39px", marginTop:'10px'}} onClick={isIncluded ? UnfavoriteTeam: favoriteTeam} />}
       </TeamInfo>
       <TeamDetails>
-        <TeamDescription>{team.strDescriptionEN}</TeamDescription>
-        <LeagueInfo>
-          <h3>League Info</h3>
-          <p>League: {team.strLeague}</p>
+      <LeagueInfo>
+      <TeamDescription>{team.strDescriptionEN}</TeamDescription>
+          <h3>Info</h3>
+          <p>Competitions:</p> 
+          <ul>
+          <li>{team.strLeague}</li>
+          <li>{team.strLeague2}</li>
+          <li>{team.strLeague3}</li>  
+          <li>{team.strLeague5}</li>
+          </ul>
           <p>Country: {team.strCountry}</p>
           <p>Formed in: {team.intFormedYear}</p>
+          <p>🏟️ : {team.strStadium}</p>
+          <TeamJersey src={team.strTeamJersey} alt="shirt"></TeamJersey>
         </LeagueInfo>
-        <TeamJersey src={team.strTeamJersey} alt="shirt"></TeamJersey> 
       </TeamDetails>
     </Container>
   );
@@ -105,6 +112,8 @@ const TeamJersey = styled.img`
 
 height: 350px;
 width: 350px;
+margin-left:1200px;
+margin-top: -210px;
 `;
 
 const TeamName = styled.p`
