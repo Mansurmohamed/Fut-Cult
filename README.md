@@ -7,6 +7,10 @@
 
 ![Soccerpage - Made with Clipchamp](https://github.com/Mansurmohamed/Soccer-app/assets/77082103/c8e7e32a-5deb-45dc-99fe-bc9ab872e83d)
 
+<h1>Sections</h1>
+![ezgif com-video-to-gif](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/e2ee7b81-9d50-4790-9e09-a098df5f10b4)
+
+
 <h1>Challenges</h1>
 <ul>
  <li></li>
