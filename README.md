@@ -53,7 +53,12 @@ You can see which team is playing each other, at which field and the date </h2>
  5
 </h1>
 
-<h1>Profile page</h1>
+<h1>Leagues page</h1>
+
+<p>Page gif goes here</p>
+
+<h2>View league tables of different leagues of the current season<br>
+Tables are actively updated whenever a team has played a game</h2>
 
 
 
