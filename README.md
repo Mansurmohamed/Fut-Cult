@@ -15,6 +15,10 @@ Joking aside, this application will help users navigate through different league
 
 <h2>The home page is your schedule for all the games happening across Europe.<br>
 You can see which team is playing each other, at which field and the date </h2>
+<br>
+<h1 align="center">
+ 2
+</h1>
 
 <h1>Teams page</h1>
 
@@ -23,7 +27,7 @@ You can see which team is playing each other, at which field and the date </h2>
 <h2>View teams across different leagues(more leagues to come!)</h2>
 <br>
 <h1 align="center">
- 2
+ 3
 </h1>
 
 
