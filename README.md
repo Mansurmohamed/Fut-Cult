@@ -48,6 +48,12 @@ You can see which team is playing each other, at which field and the date </h2>
 
 <h2>Watch match highlights of games you missed.<br>
 (Saves time from searching the internet for game highlights.<br>Click, Scroll and Click. Voila!)</h2>
+<br>
+<h1 align="center">
+ 5
+</h1>
+
+<h1>Profile page</h1>
 
 
 
