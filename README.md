@@ -1,5 +1,6 @@
 
 
+
  <h1>FUT CULT</h1>
  <p>FUT CULT is a football(soccer) application with one goal in mind, <br>
  Giving football fans a tool to keep up with the beautiful game and to win a spot on their browser bookmark<br>
@@ -55,7 +56,7 @@ You can see which team is playing each other, at which field and the date </h2>
 
 <h1>Leagues page</h1>
 
-<p>Page gif goes here</p>
+![League table](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/8a75d428-fa02-4c05-9616-3d3fbfd1e118)
 
 <h2>View league tables of different leagues of the current season<br>
 Tables are actively updated whenever a team has played a game</h2>
