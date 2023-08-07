@@ -65,6 +65,8 @@ Tables are actively updated whenever a team has played a game</p>
  6
 </h1>
 
+<h1>Profile page</h1>
+
 
 
 <h1>Challenges</h1>
