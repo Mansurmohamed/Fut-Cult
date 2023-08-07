@@ -40,9 +40,11 @@ You can see which team is playing each other, at which field and the date </h2>
  4
 </h1>
 
-![Highlight gif](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/0edba35d-a76f-474b-97ab-510ed56e393e)
 
-<h2>Highlights page </h2>
+
+<h1>Highlights page </h1>
+
+![Highlight gif](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/0edba35d-a76f-474b-97ab-510ed56e393e)
 
 
 
