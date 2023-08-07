@@ -46,6 +46,9 @@ You can see which team is playing each other, at which field and the date </h2>
 
 ![Highlight gif](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/0edba35d-a76f-474b-97ab-510ed56e393e)
 
+<h2>Watch match highlights of games you missed.<br>
+(Saves time from searching the internet for game highlights.<br>Click, Scroll and Click. Voila!)</h2>
+
 
 
 <h1>Challenges</h1>
