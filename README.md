@@ -21,10 +21,10 @@
 
 <h1>Challenges</h1>
 <ul>
- <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+ <li>Setting up Auth0 to handle user authentication(My first tango with Auth0 was kinda upfront 😅)</li>
+  <li>Understanding the API(TheSportsDB) and getting it to corporate with me</li>
+  <li>Getting the team page to display information, 10/10 times it threw errors at me 😅</li>
+  <li>Trying to get the backend code to coperate with the application(Solved by a quick refresher of Node.js)</li>
 </ul>
 
 <h1>More to come</h1>
@@ -33,5 +33,6 @@
  <li>More leagues</li>
  <li>Include european cup competitons(UEFA champions league, europa league and conference league)</li>
  <li>Incorporate a blog page(in partnership with Foot News)</li>
+ <li>Switch between languages(English,French, Turkish)</li>
 </ul>
 
