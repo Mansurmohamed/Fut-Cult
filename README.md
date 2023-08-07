@@ -11,9 +11,8 @@ Joking aside, this application will help users navigate through different league
 
 ![Soccerpage - Made with Clipchamp](https://github.com/Mansurmohamed/Soccer-app/assets/77082103/c8e7e32a-5deb-45dc-99fe-bc9ab872e83d)
 
-
-
-<p>Potato patato</p>
+<p>The home page is your schedule for all the games happening across Europe.<br>
+You can see which team is playing each other, at which field and the date </p>
 
 <h1>Teams page</h1>
 
