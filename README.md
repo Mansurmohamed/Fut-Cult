@@ -5,7 +5,9 @@
  Giving football fans a tool to keep up with the beautiful game and to win a spot on their browser bookmark<br>
 Joking aside, this application will help users navigate through different leagues <br>and get a glance of upcoming games, where and when it's happening </p>
 <br>
-
+<h1 align="center">
+ 1
+</h1>
 
 <h1>Home page</h1>
 
