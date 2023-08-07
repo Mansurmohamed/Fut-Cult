@@ -35,6 +35,12 @@ You can see which team is playing each other, at which field and the date </h2>
 ![Team view page](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/8f15475d-fdb0-497f-bc47-6cc077a24d39)
 
 <h2>View a team's description, competitions they play in and the jersey for the current season </h2>
+<br>
+<h1 align="center">
+ 4
+</h1>
+
+<h2>Highlights page </h2>
 
 
 
