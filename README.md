@@ -20,9 +20,9 @@ You can see which team is playing each other, at which field and the date </h2>
 
 <h2>View teams across different leagues(more leagues to come!)</h2>
 <br>
-<p align="center">
+<h1 align="center">
  2
-</p>
+</h1>
 
 
 
