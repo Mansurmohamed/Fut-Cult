@@ -11,14 +11,14 @@ Joking aside, this application will help users navigate through different league
 
 ![Soccerpage - Made with Clipchamp](https://github.com/Mansurmohamed/Soccer-app/assets/77082103/c8e7e32a-5deb-45dc-99fe-bc9ab872e83d)
 
-<p>The home page is your schedule for all the games happening across Europe.<br>
-You can see which team is playing each other, at which field and the date </p>
+<h2>The home page is your schedule for all the games happening across Europe.<br>
+You can see which team is playing each other, at which field and the date </h2>
 
 <h1>Teams page</h1>
 
 ![ezgif com-video-to-gif](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/e2ee7b81-9d50-4790-9e09-a098df5f10b4)
 
-<p>View teams across different leagues(more leagues to come!)</p>
+<h2>View teams across different leagues(more leagues to come!)</h2>
 
 <h2>View a team's description, competitions they play in and the jersey for the current season </h2>
 
