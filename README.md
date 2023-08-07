@@ -14,8 +14,8 @@ Joking aside, this application will help users navigate through different league
 
 ![Soccerpage - Made with Clipchamp](https://github.com/Mansurmohamed/Soccer-app/assets/77082103/c8e7e32a-5deb-45dc-99fe-bc9ab872e83d)
 
-<h2>The home page is your schedule for all the games happening across Europe.<br>
-You can see which team is playing each other, at which field and the date </h2>
+<p>The home page is your schedule for all the games happening across Europe.<br>
+You can see which team is playing each other, at which field and the date </p>
 <br>
 <h1 align="center">
  2
@@ -25,7 +25,7 @@ You can see which team is playing each other, at which field and the date </h2>
 
 ![ezgif com-video-to-gif](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/e2ee7b81-9d50-4790-9e09-a098df5f10b4)
 
-<h2>View teams across different leagues(more leagues to come!)</h2>
+<p>View teams across different leagues(more leagues to come!)</p>
 <br>
 <h1 align="center">
  3
@@ -35,7 +35,7 @@ You can see which team is playing each other, at which field and the date </h2>
 
 ![Team view page](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/8f15475d-fdb0-497f-bc47-6cc077a24d39)
 
-<h2>View a team's description, competitions they play in and the jersey for the current season </h2>
+<p>View a team's description, competitions they play in and the jersey for the current season </p>
 <br>
 <h1 align="center">
  4
@@ -47,8 +47,8 @@ You can see which team is playing each other, at which field and the date </h2>
 
 ![Highlight gif](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/0edba35d-a76f-474b-97ab-510ed56e393e)
 
-<h2>Watch match highlights of games you missed.<br>
-(Saves time from searching the internet for game highlights.<br>Click, Scroll and Click. Voila!)</h2>
+<p>Watch match highlights of games you missed.<br>
+(Saves time from searching the internet for game highlights.<br>Click, Scroll and Click. Voila!)</p>
 <br>
 <h1 align="center">
  5
