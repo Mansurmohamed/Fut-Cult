@@ -5,6 +5,9 @@
  Giving football fans a tool to keep up with the beautiful game and to win a spot on their browser bookmark<br>
  Joking aside, this application will help users navigate through different leagues <br>and get a glance of upcoming games, where and when it's happening </p>
 
+
+
+
 ![Soccerpage - Made with Clipchamp](https://github.com/Mansurmohamed/Soccer-app/assets/77082103/c8e7e32a-5deb-45dc-99fe-bc9ab872e83d)
 
 <h1>Home page</h1>
