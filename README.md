@@ -58,8 +58,8 @@ You can see which team is playing each other, at which field and the date </h2>
 
 ![League table](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/8a75d428-fa02-4c05-9616-3d3fbfd1e118)
 
-<h2>View league tables of different leagues of the current season<br>
-Tables are actively updated whenever a team has played a game</h2>
+<p>View league tables of different leagues of the current season<br>
+Tables are actively updated whenever a team has played a game</p>
 
 
 
