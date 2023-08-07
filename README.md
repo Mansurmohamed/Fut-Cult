@@ -13,6 +13,11 @@
 
 <p>View teams across different leagues(more leagues to come!)</p>
 
+<h2>View a team's description, competitions they play in and the jersey for the current season </h2>
+
+![Team view page](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/8f15475d-fdb0-497f-bc47-6cc077a24d39)
+
+
 
 <h1>Challenges</h1>
 <ul>
