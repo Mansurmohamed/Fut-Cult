@@ -69,6 +69,9 @@ Tables are actively updated whenever a team has played a game</p>
 
 ![Profile gif](https://github.com/Mansurmohamed/Fut-Cult/assets/77082103/f8231feb-bdb8-457a-a89c-bb576a6c51a9)
 
+<p>View your profile once logged in and manage your favorite teams<br>
+</p>
+
 
 
 <h1>Challenges</h1>
